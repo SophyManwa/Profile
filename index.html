@@ -1,81 +1,235 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sophy Manwa | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sophy Manwa | Portfolio</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<!-- HERO -->
-<section class="hero">
-    <h1>Sophy Manwa</h1>
-    <h2>Data Engineer | Data Scientist | Data Analyst</h2>
+<nav>
+<div class="logo">SM</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-    <p>
-        I build real-time data systems, machine learning pipelines, and scalable analytics solutions.
-    </p>
+<header class="hero">
+<div class="hero-content">
+<h1>Sophy Manwa</h1>
+<h2>Data Engineer & Machine Learning Engineer</h2>
+<p>
+Building scalable data pipelines, real-time analytics systems,
+and intelligent decision platforms.
+</p>
 
-    <div class="buttons">
-        <a href="#projects">View Projects</a>
-        <a href="https://github.com/SophyManwa" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/SophyManwa" target="_blank">LinkedIn</a>
-    </div>
+<div class="buttons">
+<a href="#projects" class="btn">View Projects</a>
+<a href="https://github.com/SophyManwa" class="btn-outline">GitHub</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I build end-to-end data engineering and machine learning systems with a
+focus on streaming architectures, predictive analytics, and production-ready
+AI solutions.
+</p>
 </section>
 
-<!-- ABOUT -->
-<section class="section">
-    <h2>About Me</h2>
-    <p>
-        I specialize in building end-to-end data engineering and machine learning systems.
-        My focus is on real-time streaming pipelines, predictive modelling, and scalable architectures.
-    </p>
+<section id="skills">
+<h2>Technical Skills</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Data Engineering</h3>
+<p>Python<br>Kafka<br>PySpark<br>SQL</p>
+</div>
+
+<div class="card">
+<h3>Machine Learning</h3>
+<p>XGBoost<br>Scikit-learn<br>SHAP</p>
+</div>
+
+<div class="card">
+<h3>Databases</h3>
+<p>Cassandra<br>PostgreSQL</p>
+</div>
+
+<div class="card">
+<h3>Visualisation</h3>
+<p>Streamlit<br>Plotly<br>Matplotlib</p>
+</div>
+
+</div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
+<section id="projects">
+<h2>Featured Projects</h2>
 
-    <div class="card">
-        <h3>Credit Risk Prediction System</h3>
-        <p>
-            Real-time streaming credit risk system using Kafka, Spark, XGBoost, SHAP explainability,
-            and concept drift detection.
-        </p>
+<div class="project">
 
-        <p><strong>Tech:</strong> Kafka | PySpark | XGBoost | SHAP | Cassandra</p>
+<h3>Adaptive & Regulatory-Compliant Credit Risk Prediction System</h3>
 
-        <a href="https://github.com/SophyManwa/credit-risk-prediction-system" target="_blank">
-            View GitHub
-        </a>
-    </div>
+<p>
+A production-style real-time credit risk platform combining streaming
+data pipelines, machine learning, explainable AI, and concept drift detection.
+</p>
+
+<p><strong>Technology:</strong> Kafka • Spark • XGBoost • SHAP • Cassandra • Streamlit</p>
+
+<div class="buttons">
+<a href="#">Case Study</a>
+<a href="#">GitHub</a>
+</div>
+
+</div>
+
+<div class="project">
+<h3>Insurance Pricing & Risk Underwriting System</h3>
+<p>Portfolio project currently under development.</p>
+</div>
 
 </section>
 
-<!-- SKILLS -->
-<section class="section">
-    <h2>Skills</h2>
+<section id="contact">
+<h2>Let's Connect</h2>
 
-    <ul>
-        <li>Python</li>
-        <li>Apache Kafka</li>
-        <li>Apache Spark</li>
-        <li>XGBoost</li>
-        <li>SHAP</li>
-        <li>Streamlit</li>
-        <li>Cassandra</li>
-        <li>Pandas / NumPy</li>
-    </ul>
+<p>Email: your.email@example.com</p>
+<p>GitHub: github.com/SophyManwa</p>
+<p>LinkedIn: Add your LinkedIn URL</p>
+
 </section>
 
-<!-- CONTACT -->
-<section class="section">
-    <h2>Contact</h2>
-    <p>Email: sophymanwa44@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/SophyManwa</p>
-</section>
+<footer>
+<p>© 2026 Sophy Manwa</p>
+</footer>
 
 </body>
 </html>
+"""
+
+css = """
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#08111f;
+color:#f5f5f5;
+line-height:1.7;
+}
+
+nav{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:rgba(8,17,31,.95);
+backdrop-filter:blur(8px);
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+font-weight:bold;
+font-size:1.5rem;
+color:#5eead4;
+}
+
+.hero{
+min-height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px;
+background:linear-gradient(135deg,#08111f,#12243d);
+}
+
+.hero h1{
+font-size:4rem;
+}
+
+.hero h2{
+margin:20px 0;
+color:#5eead4;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.btn,.btn-outline,.project a{
+display:inline-block;
+padding:12px 22px;
+margin:10px;
+border-radius:8px;
+text-decoration:none;
+}
+
+.btn{
+background:#5eead4;
+color:#08111f;
+}
+
+.btn-outline,.project a{
+border:1px solid #5eead4;
+color:#5eead4;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+margin-bottom:30px;
+color:#5eead4;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card,.project{
+background:#12243d;
+padding:25px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#06101b;
+}
