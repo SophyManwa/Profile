@@ -1,119 +1,273 @@
+<!-- ------------------- -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sophy Manwa | Portfolio</title>
+    <title>Sophy Manwa | Senior Data Analyst &amp; BI Engineer</title>
+    <meta name="description"
+        content="Portfolio of Sophy Manwa, Senior Data Analyst and BI Engineer specializing in financial data systems, ETL pipelines, and executive risk dashboards.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero">
-    <h1>Sophy Manwa</h1>
-    <h2>Data Engineer | Data Scientist | Data Analyst</h2>
+    <div class="ledger-rule top-rule" aria-hidden="true"></div>
 
-    <p>
-        I build real-time data systems, machine learning pipelines, and scalable analytics solutions.
-    </p>
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-mark">S.M.</a>
+            <div class="nav-links">
+                <a href="#about">Profile</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-    <div class="buttons">
-        <a href="#projects">View Projects</a>
-        <a href="https://github.com/SophyManwa" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/SophyManwa" target="_blank">LinkedIn</a>
-    </div>
-</section>
+    <!-- HERO -->
+    <header class="hero" id="top">
+        <div class="hero-inner">
+            <span class="status-badge"><span class="status-dot" aria-hidden="true"></span>OPEN TO WORKk</span>
+            <h1>Sophy Manwa</h1>
+            <p class="eyebrow">Senior Data Analyst &amp; BI Engineer &amp;  Data Engineering <br> Dublin, Ireland</p>
+            <p class="hero-lede">
 
-<!-- ABOUT -->
-<section class="section">
-    <h2>About Me</h2>
-    <p>
-        I specialize in advanced data analytics, Automation, building end-to-end data pipelines and machine learning systems.
-        My focus is on real-time streaming pipelines, predictive modelling, advanced data analytics, BI and scalable architectures.
-    </p>
-</section>
+                Building data platforms,risk analytics,and business intelligence.
+                <!-- I turn large, messy financial datasets into pipelines and dashboards that
+                risk and audit teams actually trust, built on rigorous SQL, Python, and
+                a working knowledge of the compliance frameworks that govern how the
+                numbers get used. -->
+                
+            </p>
+            <div class="hero-actions">
+                <a href="#work" class="btn btn-primary">View projects</a>
+                <a href="https://www.linkedin.com/in/sophymanwa/" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-line">LinkedIn</a>
+                <a href="https://github.com/SophyManwa" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-line">GitHub</a>
+            </div>
+        </div>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
+        <div class="metrics-grid">
 
-    <div class="card">
-        <h3>Credit Risk Prediction System</h3>
-        <p>
-            Real-time streaming credit risk system using Kafka, Spark, XGBoost, SHAP explainability,
-            and concept drift detection.
-        </p>
+            <div class="metric-card">
+                <h3>100M+</h3>
+                <p>Records Processed</p>
+                <span>Pipeline & warehouse projects</span>
+            </div>
 
-        <p><strong>Tech:</strong> Kafka | PySpark | XGBoost | SHAP | Cassandra</p>
+            <div class="metric-card">
+                <h3>40%</h3>
+                <p>Audit Automation</p>
+                <span>Manual review hours removed</span>
+            </div>
 
-        <a href="https://github.com/SophyManwa/credit-risk-prediction-system" target="_blank">
-            View GitHub
-        </a>
-    </div>
+            <div class="metric-card">
+                <h3>50%</h3>
+                <p>Loss Reduction</p>
+                <span>Earlier risk detection</span>
+            </div>
 
-    <div class="card">
-        <h3>Insurance Risk Analytics and Pricing System</h3>
-        <p>
-            A decision support system for motorvehicle Insurance product using Python ETLs, Data Warehouse, Orchestration, ML models for risk and severity prediction, Power Bi 
-        </p>
+            <div class="metric-card">
+                <h3>30%</h3>
+                <p>Faster Reporting</p>
+                <span>Data prep to delivery</span>
+            </div>
 
-        <p><strong>Tech:</strong> Python | SQL | Sklearn | Prefect | PostgreSQL | PowerBi</p>
+        </div>
+        </div>
+    </header>
 
-        <a href="https://github.com/SophyManwa/insurance-pricing-engine" target="_blank">
-            View GitHub
-        </a>
-    </div>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-inner about-grid">
+            <h2 class="section-title"><span class="section-num">Profile</span></h2>
+            <div class="about-copy">
+                <p>
+                    I'm a data analyst and BI engineer with five years of experience building
+                    SQL pipelines, Python-based ETL, and executive dashboards on datasets
+                    upward of 50 million records. My work sits at the intersection of data
+                    engineering and financial governance: designing systems that hold up
+                    under audit as well as they do under load.
+                </p>
+                <p>
+                    Recent projects have cut manual audit work by 40%, reduced modeled loss
+                    exposure by 50%, and shortened reporting cycles by 30%. I'm comfortable
+                    moving between Python, PySpark, and SQL on the engineering side, and
+                    Power BI or Tableau on the reporting side, with BCBS239 and IFRS 9 in
+                    mind throughout, not bolted on at the end.
+                </p>
+                <!-- <p>
+                    I'm currently completing an MSc in Big Data Management and Analytics in
+                    Dublin, and open to senior data roles, pipeline modernization work, or
+                    BI ecosystem overhauls.
+                </p> -->
+            </div>
+        </div>
+    </section>
 
-    <div class="card">
-    <h3>Real-Time Credit Risk Inference Pipeline</h3>
-    <p>
-        Engineered a distributed, real-time streaming architecture to predict credit risk. Implemented event-driven ingestion, scalable stream processing, automated concept drift detection, and SHAP-based feature importance for model explainability.
-    </p>
-    <p><strong>Tech Stack:</strong> Apache Kafka | PySpark Streaming | XGBoost | SHAP | Apache Cassandra</p>
-    <a href="https://github.com/SophyManwa/credit-risk-prediction-system" target="_blank" rel="noopener noreferrer">
-        View GitHub Repository
-    </a>
-</div>
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+        <div class="section-inner">
+            <h2 class="section-title"><span class="section-num">Projects</span></h2>
+            <p class="section-intro">
+                Independent projects exploring how risk data systems are
+                actually built, from streaming ingestion to the dashboards an audit
+                committee would read.
+            </p>
 
-<div class="card">
-    <h3>Motor Insurance Analytics & Risk Pricing Engine</h3>
-    <p>
-        Developed an end-to-end decision support system for automotive insurance pricing. Built production ETL pipelines, a centralized data warehouse, automated orchestration, and machine learning models to forecast risk frequency and claim severity.
-    </p>
-    <p><strong>Tech Stack:</strong> Python | PostgreSQL | Scikit-Learn | Prefect | SQL | Power BI</p>
-    <a href="https://github.com/SophyManwa/insurance-pricing-engine" target="_blank" rel="noopener noreferrer">
-        View GitHub Repository
-    </a>
-</div>
+            <div class="project-list">
 
+                <article class="project">
+                    <div class="project-head">
+                        <h3>Real-Time Credit Risk Prediction System</h3>
+                        <span class="project-tag">Streaming &amp; ML</span>
+                    </div>
+                    <p>
+                        A distributed streaming system for scoring credit transactions as they
+                        happen rather than after the fact. Event-driven ingestion feeds a
+                        PySpark Structured Streaming pipeline, an XGBoost model scores
+                        transactions in near real time, and SHAP values are attached to every
+                        prediction so a reviewer can see why a score landed where it did.
+                        Includes a concept-drift monitor that flags when the model's
+                        assumptions start drifting from incoming data.
+                    </p>
+                    <p class="tech-stack">Apache Kafka · PySpark Streaming · XGBoost · SHAP · Apache Cassandra</p>
+                    <a href="https://github.com/SophyManwa/credit-risk-prediction" target="_blank"
+                        rel="noopener noreferrer" class="project-link">
+                        View repository (private, access on request) &rarr;
+                    </a>
+                </article>
 
-</section>
+                <article class="project">
+                    <div class="project-head">
+                        <h3>Motor Insurance Analytics &amp; Risk Pricing Engine</h3>
+                        <span class="project-tag">Data Warehousing</span>
+                    </div>
+                    <p>
+                        An end-to-end decision-support system for motor insurance pricing:
+                        a Python ETL pipeline lands raw policy and claims data into a
+                        structured PostgreSQL warehouse, Prefect orchestrates the refresh
+                        schedule, and a Scikit-learn model predicts claim severity. A Power BI
+                        layer on top gives underwriters a single view of exposure and
+                        pricing risk by segment.
+                    </p>
+                    <p class="tech-stack">Python · PostgreSQL · Scikit-learn · Prefect · SQL · Power BI</p>
+                    <a href="https://github.com/SophyManwa/insurance-pricing-engine" target="_blank"
+                        rel="noopener noreferrer" class="project-link">
+                        View repository (private, access on request) &rarr;
+                    </a>
+                </article>
 
-<!-- SKILLS -->
-<section class="section">
-    <h2>Skills</h2>
+            </div>
+        </div>
+    </section>
 
-    <ul>
-        <li>Python</li>
-        <li>Advanced SQL</li>
-        <li>Power Bi</li>
-        <li>Tableau</li>
-        <li>Apache Kafka</li>
-        <li>Apache Spark</li>
-        <li>Streamlit</li>
-        <li>Cassandra</li>
-    </ul>
-</section>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="section-inner">
+            <h2 class="section-title"><span class="section-num">Technical Skills</span></h2>
 
-<!-- CONTACT -->
-<section class="section">
-    <h2>Contact</h2>
-    <p>Email: sophymanwa44@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/SophyManwa</p>
-</section>
+            <div class="skills-grid">
+                <div class="skills-col">
+                    <h3>BI &amp; Visualization</h3>
+                    <ul>
+                        <li>Power BI &amp; Tableau, executive-facing design</li>
+                        <li>Streamlit for interactive data apps</li>
+                        <li>MI / KRI / KPI risk dashboards</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3>SQL &amp; Databases</h3>
+                    <ul>
+                        <li>Advanced SQL: window functions, CTEs</li>
+                        <li>BigQuery SQL &amp; Spark SQL</li>
+                        <li>Snowflake, Oracle, PostgreSQL, MSSQL</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3>Data Engineering</h3>
+                    <ul>
+                        <li>Python (PySpark, Pandas) &amp; R</li>
+                        <li>Kafka &amp; PySpark Structured Streaming</li>
+                        <li>Prefect orchestration &amp; Cassandra</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3>Governance &amp; Risk</h3>
+                    <ul>
+                        <li>BCBS239 &amp; IFRS 9 awareness</li>
+                        <li>Data lineage &amp; metadata management</li>
+                        <li>Basel II &amp; model risk audit controls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-alt">
+        <div class="section-inner edu-grid">
+            <h2 class="section-title"><span class="section-num">Education</span></h2>
+
+            <div class="edu-copy">
+                <div class="edu-entry">
+                    <div class="edu-line">
+                        <h3>MSc, Big Data Management and Analytics</h3>
+                        <!-- <span class="edu-date">2025 – 2026</span> -->
+                    </div>
+                    <p>Griffith College Dublin, Ireland</p>
+                </div>
+                <div class="edu-entry">
+                    <div class="edu-line">
+                        <h3>BSc, Business Information Technology</h3>
+                        <span class="edu-date"></span>
+                    </div>
+                    <p>Jomo Kenyatta University, Kenya</p>
+                </div>
+
+                <h3 class="cert-heading">Certifications</h3>
+                <ul class="cert-list">
+                    <li>AWS Generative AI &amp; ML Foundations, 2025</li>
+                    <li>Introduction to Snowflake, 2026</li>
+                    <li>Google Data Analytics Professional</li>
+                    <li>Moody's Foundations of Banking and Credit</li>
+                    <li>Diligent ACDA &amp; Advanced ACL Scripting</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <footer id="contact" class="section contact">
+        <div class="section-inner contact-inner">
+            <h2 class="section-title"><span class="section-num">Contact</span></h2>
+            <!-- <p class="contact-lede">
+                Based in Dublin, Ireland. Open to senior data roles, pipeline
+                modernization consulting, and BI ecosystem overhauls.
+            </p> -->
+            <div class="contact-links">
+                <a href="mailto:sophymanwa44@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/sophymanwa/" target="_blank"
+                    rel="noopener noreferrer">Linkedin</a>
+                <a href="https://github.com/SophyManwa" target="_blank"
+                    rel="noopener noreferrer">Github</a>
+            </div>
+        </div>
+        <div class="foot-note">&copy; 2026 Sophy Manwa</div>
+    </footer>
 
 </body>
+
 </html>
-
-
