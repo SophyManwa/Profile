@@ -9,7 +9,10 @@ I like building things that turn messy, real-world data into something a busines
 **Currently:** open to Data Engineering / Analytics Engineering roles
 **Learning:** orchestration (Prefect/Airflow) and applying ML on top of warehoused data
 **Ask me about:** ETL design, SQL data modelling, PostgreSQL, Python data pipelines
-**Reach me:** [LinkedIn](https://www.linkedin.com/in/sophymanwa/) · [Portfolio](https://sophymanwa.github.io/Profile/)
+
+**Reach me:** 
+  [LinkedIn](https://www.linkedin.com/in/sophymanwa/) · 
+  [Portfolio](https://sophymanwa.github.io/Profile/)
 
 ---
 
