@@ -2,375 +2,243 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sophy Manwa | Data Analyst &amp; Data Engineer</title>
-    <meta name="description"
-        content="Portfolio of Sophy Manwa, Senior Data Analyst and Data Engineer specializing in financial data systems, ETL pipelines, and executive dashboards.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:wght@600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sophy Manwa, Data Engineer</title>
+<meta name="description" content="Portfolio of Sophy Manwa, data engineer specializing in streaming pipelines, distributed data processing, and ETL systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
 
-    <div class="ledger-rule top-rule" aria-hidden="true"></div>
+<header>
+  <nav>
+    <a href="#top" class="logo">sm<span style="color:var(--paper)">.</span>dev</a>
+    <div class="navlinks">
+      <a href="#about"><span class="n">01</span>profile</a>
+      <a href="#skills"><span class="n">02</span>skills</a>
+      <a href="#experience"><span class="n">03</span>experience</a>
+      <a href="#projects"><span class="n">04</span>projects</a>
+      <a href="#education"><span class="n">05</span>education</a>
+      <a href="#contact"><span class="n">06</span>contact</a>
+    </div>
+  </nav>
+</header>
 
-    <!-- NAV -->
-    <nav class="nav">
-        <div class="nav-inner">
-            <a href="#top" class="nav-mark">S.M.</a>
-            <div class="nav-links">
-                <a href="#about">Profile</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+<main id="top">
 
-    <!-- HERO -->
-    <header class="hero" id="top">
-        <div class="hero-inner">
-            <!-- <span class="status-badge"><span class="status-dot" aria-hidden="true"></span>OPEN TO WORK</span> -->
-            <h1>Sophy Manwa</h1>
-            <p class="eyebrow">Data Analyst &amp; Data Engineer · Dublin, Ireland</p>
-            <p class="hero-lede">
-                I turn large, messy financial datasets into pipelines and dashboards that
-                risk and audit teams actually trust — built on rigorous SQL and Python,
-                with the compliance frameworks that govern how the numbers get used in
-                mind from day one, not bolted on at the end.
-            </p>
-            <div class="hero-actions">
-                <a href="#experience" class="btn btn-primary">View experience</a>
-                <a href="https://www.linkedin.com/in/sophymanwa/" target="_blank" rel="noopener noreferrer"
-                    class="btn btn-line">LinkedIn</a>
-                <a href="https://github.com/SophyManwa" target="_blank" rel="noopener noreferrer"
-                    class="btn btn-line">GitHub</a>
-            </div>
-        </div>
-
-        <!-- <div class="metrics-grid">
-
-            <div class="metric-card">
-                <h3>100M+</h3>
-                <p>Records Processed</p>
-                <span>Pipeline &amp; warehouse projects</span>
-            </div>
-
-            <div class="metric-card">
-                <h3>40%</h3>
-                <p>Audit Automation</p>
-                <span>Manual review hours removed</span>
-            </div>
-
-            <div class="metric-card">
-                <h3>50%</h3>
-                <p>Loss Reduction</p>
-                <span>Earlier risk detection</span>
-            </div>
-
-            <div class="metric-card">
-                <h3>30%</h3>
-                <p>Faster Reporting</p>
-                <span>Data prep to delivery</span>
-            </div>
-
-        </div> -->
-    </header>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-        <div class="section-inner about-grid">
-            <h2 class="section-title"><span class="section-num">Profile</span></h2>
-            <div class="about-copy">
-                <p>
-                    I'm a data analyst and data engineer with five years of experience building
-                    SQL pipelines, Python-based ETL, and executive dashboards on datasets
-                    upward of 50 million records. My work sits at the intersection of data
-                    engineering and financial governance: designing systems that hold up
-                    under audit as well as they do under load.
-                </p>
-                <p>
-                    Recent projects have cut manual audit work by 40%, reduced modeled loss
-                    exposure by 50%, and shortened reporting cycles by 30%. I'm comfortable
-                    moving between Python, PySpark, and SQL on the engineering side, and
-                    Power BI or Tableau on the reporting side, with BCBS239 and IFRS 9 in
-                    mind throughout.
-                </p>
-                <p>
-                    I'm currently completing an MSc in Big Data Management and Analytics in
-                    Dublin, and open to senior data roles, pipeline modernization work, or
-                    BI ecosystem overhauls.
-                </p>
-            </div>
-        </div>
+  <div class="wrap">
+    <section class="hero">
+      <div class="hero-tag"><span class="dot"></span>open to data engineer &amp; analytics engineer roles · dublin</div>
+      <h1>I build the pipelines that move data <span class="accent">reliably, at scale.</span></h1>
+      <p class="hero-sub">Data engineer with a 6-year foundation in production SQL and Python, now built out with distributed processing and streaming systems: Kafka, PySpark, Cassandra. I care about pipelines that don't quietly break at 2am.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View projects →</a>
+        <a href="https://github.com/SophyManwa" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sophymanwa/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </section>
+  </div>
 
-        <!-- SKILLS -->
-    <section id="skills" class="section section-alt">
-        <div class="section-inner">
-            <h2 class="section-title"><span class="section-num">Technical Skills</span></h2>
+  <div class="divider"></div>
 
-            <div class="skills-grid">
-                <div class="skills-col">
-                    <h3>BI &amp; Visualization</h3>
-                    <ul>
-                        <li>Power BI &amp; Tableau, executive-facing design</li>
-                        <li>Streamlit for interactive data apps</li>
-                        <li>MI / KRI / KPI risk dashboards</li>
-                    </ul>
-                </div>
-                <div class="skills-col">
-                    <h3>SQL &amp; Databases</h3>
-                    <ul>
-                        <li>Advanced SQL: window functions, CTEs</li>
-                        <li>BigQuery SQL &amp; Spark SQL</li>
-                        <li>Snowflake, Oracle, PostgreSQL, MSSQL</li>
-                    </ul>
-                </div>
-                <div class="skills-col">
-                    <h3>Data Engineering</h3>
-                    <ul>
-                        <li>Python (PySpark, Pandas, NumPy) &amp; Java</li>
-                        <li>Kafka &amp; PySpark Structured Streaming</li>
-                        <li>Cassandra &amp; distributed processing on GCP/AWS</li>
-                    </ul>
-                </div>
-                <div class="skills-col">
-                    <h3>Governance &amp; Risk</h3>
-                    <ul>
-                        <li>BCBS239 &amp; IFRS 9 awareness</li>
-                        <li>Data lineage &amp; metadata management</li>
-                        <li>Basel II &amp; model risk audit controls</li>
-                    </ul>
-                </div>
-            </div>
+  <div class="wrap">
+    <section id="about" class="reveal">
+      <div class="section-head"><span class="section-num">01</span><span class="section-title">Profile</span><div class="section-rule"></div></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I spent six years building <strong>Python and SQL data pipelines</strong> inside banking and consulting environments, extracting, transforming, validating, and automating the movement of transactional data at a scale of 50M+ records. That work taught me what breaks in production and why, long before I had a name like "data engineer" for it.</p>
+          <p>I've completed an <strong>MSc in Big Data Management and Analytics</strong> in Dublin, using it to formalize the distributed-systems side of that experience: <strong>Kafka, PySpark, Cassandra, Spark</strong>. My project work applies those tools to the same kind of high-volume, real-time data problems I worked on professionally, just with more of the underlying plumbing built and owned by me.</p>
+          <p>I'm looking for a <strong>Data Engineer or Analytics Engineer</strong> role where I can keep building that plumbing: pipelines, data models, and the systems that keep them honest, with more ownership and mentorship than a solo MSc project can offer.</p>
         </div>
+        <div class="stat-block">
+          <div class="stat"><div class="stat-num">50M+</div><div class="stat-label">records processed in production ETL pipelines</div></div>
+          <div class="stat"><div class="stat-num">40%</div><div class="stat-label">manual processing time cut through pipeline automation</div></div>
+          <div class="stat"><div class="stat-num">6 yrs</div><div class="stat-label">building production Python &amp; SQL data systems</div></div>
+        </div>
+      </div>
     </section>
+  </div>
 
+  <div class="divider"></div>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section section-alt">
-        <div class="section-inner">
-            <h2 class="section-title"><span class="section-num">Experience</span></h2>
-            <p class="section-intro">
-                Roles spanning data analysis, pipeline engineering, and BI delivery
-                in financial and risk-adjacent environments.
-            </p>
-
-            <div class="experience-list">
-
-                <article class="xp-entry">
-                    <div class="xp-period">Feb 2022 — Jan 2025</div>
-                    <div class="xp-body">
-                        <div class="xp-head">
-                            <h3>Senior Data Analyst</h3>
-                        </div>
-                        <p class="xp-company">Equity Bank Limited · Kenya</p>
-                        <ul class="xp-list">
-                            <li>Developed and maintained Python- and SQL-based data processing
-                                systems supporting analytics across datasets exceeding 50 million
-                                records.</li>
-                            <li>Designed and optimized ETL pipelines for ingestion, transformation,
-                                and validation of high-volume transactional data.</li>
-                            <li>Automated data quality checks, reconciliation processes, and audit
-                                workflows using Python, reducing manual effort by 40%.</li>
-                            <li>Built reusable software components and SQL frameworks supporting
-                                analytics and reporting solutions.</li>
-                            <li>Performed debugging, root-cause analysis, and issue resolution for
-                                critical data processing workflows.</li>
-                        </ul>
-                     
-                    </div>
-                </article>
-
-                <article class="xp-entry">
-                    <div class="xp-period">Jan 2021 — Jan 2022</div>
-                    <div class="xp-body">
-                        <div class="xp-head">
-                            <h3>Senior Data Analytics Consultant</h3>
-                        </div>
-                        <p class="xp-company">Grande Afrique Consulting Limited · Kenya</p>
-                        <ul class="xp-list">
-                            <li>Designed and implemented data solutions using Python, SQL, and
-                                automation technologies across multiple client engagements.</li>
-                            <li>Optimized SQL processing and data transformation pipelines,
-                                improving operational efficiency.</li>
-                        </ul>
-
-                    </div>
-                </article>
-
-                <article class="xp-entry">
-                    <div class="xp-period">Apr 2019 — Dec 2020</div>
-                    <div class="xp-body">
-                        <div class="xp-head">
-                            <h3>Data Analytics Consultant</h3>
-                        </div>
-                        <p class="xp-company">Grande Afrique Consulting Limited · Kenya</p>
-                        <ul class="xp-list">
-                            <li>Developed SQL and Python-based solutions for large-scale data
-                                analysis and process automation.</li>
-                            <li>Analyzed high-volume transactional datasets to identify anomalies
-                                and business risks.</li>
-                        </ul>
-                    </div>
-                </article>
-
-            </div>
+  <div class="wrap">
+    <section id="skills" class="reveal">
+      <div class="section-head"><span class="section-num">02</span><span class="section-title">Technical skills</span><div class="section-rule"></div></div>
+      <div class="skill-grid">
+        <div class="skill-cell">
+          <h3>Languages</h3>
+          <ul><li>Python</li><li>SQL</li><li>Java (academic)</li></ul>
         </div>
+        <div class="skill-cell">
+          <h3>Data engineering</h3>
+          <ul><li>ETL design &amp; automation</li><li>Data pipelines &amp; validation</li><li>Data modelling</li><li>Distributed processing</li></ul>
+        </div>
+        <div class="skill-cell">
+          <h3>Streaming &amp; distributed</h3>
+          <ul><li>Apache Kafka</li><li>PySpark / Structured Streaming</li><li>Apache Spark</li><li>Fault-tolerant processing</li></ul>
+        </div>
+        <div class="skill-cell">
+          <h3>Databases</h3>
+          <ul><li>PostgreSQL · MySQL · Oracle</li><li>Apache Cassandra</li><li>Snowflake</li><li>SQL Server</li></ul>
+        </div>
+        <div class="skill-cell">
+          <h3>Cloud &amp; tooling</h3>
+          <ul><li>AWS · GCP fundamentals</li><li>Linux · Git</li><li>REST APIs</li></ul>
+        </div>
+        <div class="skill-cell">
+          <h3>Libraries &amp; practice</h3>
+          <ul><li>Pandas · NumPy · Scikit-learn</li><li>Streamlit</li><li>OOP · testing · debugging</li></ul>
+        </div>
+      </div>
     </section>
+  </div>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-        <div class="section-inner">
-            <h2 class="section-title"><span class="section-num">Projects</span></h2>
-            <p class="section-intro">
-                Independent projects exploring how risk data systems are
-                actually built, from streaming ingestion to the dashboards an audit
-                committee would read.
-            </p>
+  <div class="divider"></div>
 
-            <div class="project-list">
+  <div class="wrap">
+    <section id="experience" class="reveal">
+      <div class="section-head"><span class="section-num">03</span><span class="section-title">Experience</span><div class="section-rule"></div></div>
 
-                <article class="project">
-                    <div class="project-head">
-                        <h3>Real-Time Credit Risk Prediction System</h3>
-                        <span class="project-tag">Streaming &amp; ML</span>
-                    </div>
-                    <p>
-                        A distributed streaming system for scoring credit transactions as they
-                        happen rather than after the fact. Event-driven ingestion feeds a
-                        PySpark Structured Streaming pipeline, an XGBoost model scores
-                        transactions in near real time, and SHAP values are attached to every
-                        prediction so a reviewer can see why a score landed where it did.
-                        Includes a concept-drift monitor that flags when the model's
-                        assumptions start drifting from incoming data.
-                    </p>
-                    <p class="tech-stack">Apache Kafka · PySpark Streaming · XGBoost · SHAP · Apache Cassandra</p>
-                    <a href="https://github.com/SophyManwa/credit-risk-prediction-system" target="_blank"
-                        rel="noopener noreferrer" class="project-link">
-                        View repository &rarr;
-                    </a>
-                </article>
-
-                <article class="project">
-                    <div class="project-head">
-                        <h3>Motor Insurance Analytics &amp; Risk Pricing Engine</h3>
-                        <span class="project-tag">Data Warehousing</span>
-                    </div>
-                    <p>
-                        An end-to-end decision-support system for motor insurance pricing:
-                        a Python ETL pipeline lands raw policy and claims data into a
-                        structured PostgreSQL warehouse, Prefect orchestrates the refresh
-                        schedule, and a Scikit-learn model predicts claim severity. A Power BI
-                        layer on top gives underwriters a single view of exposure and
-                        pricing risk by segment.
-                    </p>
-                    <p class="tech-stack">Python · PostgreSQL · Scikit-learn · Prefect · SQL · Power BI</p>
-                    <a href="https://github.com/SophyManwa/insurance-pricing-engine" target="_blank"
-                        rel="noopener noreferrer" class="project-link">
-                        View repository &rarr;
-                    </a>
-                </article>
-
-                <article class="project">
-                    <div class="project-head">
-                        <h3>Data Warehouse &amp; Analytics Solution</h3>
-                        <span class="project-tag">BI &amp; Reporting</span>
-                    </div>
-                    <p>
-                        A normalized data warehouse built to support BI reporting over
-                        transactional data. Covers schema design and analytical data
-                        modelling, ETL workflows to keep the warehouse current, and
-                        SQL queries tuned for the dashboards built on top of it.
-                    </p>
-                    <p class="tech-stack">PostgreSQL · SQL · Python · ETL</p>
-                </article>
-
-            </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-status"><span class="dot"></span>feb 2022 &ndash; jan 2025</span>
+          <span>nairobi, kenya</span>
         </div>
+        <div class="log-role">Senior Data Analyst</div>
+        <div class="log-org">Equity Bank Limited</div>
+        <ul class="log-points">
+          <li>Built and maintained Python- and SQL-based data pipelines processing transactional datasets exceeding 50 million records, handling extraction, transformation, validation, and load into reporting layers.</li>
+          <li>Designed and optimised ETL workflows for high-volume banking data, cutting manual data-handling effort by 40%.</li>
+          <li>Automated recurring data quality checks and reconciliation routines in Python, replacing manual review with scheduled validation scripts.</li>
+          <li>Built reusable Python and SQL components adopted across multiple recurring data workflows.</li>
+          <li>Investigated and resolved pipeline failures and inconsistencies through debugging and root-cause analysis on production systems.</li>
+        </ul>
+      </div>
+
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-status"><span class="dot"></span>jan 2021 &ndash; jan 2022</span>
+          <span>nairobi, kenya</span>
+        </div>
+        <div class="log-role">Senior Data Analytics Consultant</div>
+        <div class="log-org">Grande Afrique Consulting Limited</div>
+        <ul class="log-points">
+          <li>Designed and built data pipelines and automation scripts in Python and SQL across multiple client engagements, integrating and validating data from disparate source systems.</li>
+          <li>Optimised SQL-based data transformation processes, improving runtime and reliability of recurring workflows.</li>
+          <li>Reviewed pipeline logic and outputs built by junior consultants; mentored on pipeline design and SQL optimisation.</li>
+        </ul>
+      </div>
+
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-status"><span class="dot"></span>apr 2019 &ndash; dec 2020</span>
+          <span>nairobi, kenya</span>
+        </div>
+        <div class="log-role">Data Analytics Consultant</div>
+        <div class="log-org">Grande Afrique Consulting Limited</div>
+        <ul class="log-points">
+          <li>Built data pipelines and SQL queries to extract, clean, and transform client datasets, supporting downstream reporting and dashboard delivery.</li>
+          <li>Developed Python scripts to automate data extraction and validation across large transactional datasets.</li>
+        </ul>
+      </div>
     </section>
+  </div>
 
-    <!-- EDUCATION -->
-    <section id="education" class="section">
-        <div class="section-inner edu-grid">
-            <h2 class="section-title"><span class="section-num">Education</span></h2>
+  <div class="divider"></div>
 
-            <div class="edu-copy">
-                <div class="edu-entry">
-                    <div class="edu-line">
-                        <h3>MSc, Big Data Management and Analytics</h3>
-                        <span class="edu-date">2025 - 2026</span>
-                    </div>
-                    <p>Griffith College Dublin, Ireland</p>
-                </div>
-                <div class="edu-entry">
-                    <div class="edu-line">
-                        <h3>BSc, Business Information Technology</h3>
-                        <span class="edu-date">2015 – 2019</span>
-                    </div>
-                    <p>Jomo Kenyatta University, Kenya</p>
-                </div>
+  <div class="wrap">
+    <section id="projects" class="reveal">
+      <div class="section-head"><span class="section-num">04</span><span class="section-title">Projects</span><div class="section-rule"></div></div>
+      <div class="proj-grid">
 
-                <h3 class="cert-heading">Certifications</h3>
-                <ul class="cert-list">
-                    <li>AWS Generative AI Foundations, 2025</li>
-                    <li>AWS Machine Learning Foundations, 2025</li>
-                    <li>Introduction to Snowflake, 2026</li>
-                    <li>Google Data Analytics Professional Certificate, 2023</li>
-                    <li>Moody's Foundations of Banking and Credit, 2024</li>
-                    <li>Advanced ACL Scripting, 2024</li>
-                </ul>
-            </div>
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-name">Real-Time Credit Risk Analytics &amp; Model Monitoring Platform</div>
+            <span class="proj-tag">streaming</span>
+          </div>
+          <p class="proj-desc">An end-to-end streaming pipeline that ingests, processes, and scores high-volume financial transactions in near real time. Kafka handles event ingestion, PySpark Structured Streaming does the processing with partitioning and fault-tolerant stream handling, and Cassandra gives the system low-latency reads and writes at scale. A Streamlit layer monitors pipeline health, model performance, and data drift.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Apache Kafka</span><span>PySpark Structured Streaming</span><span>Cassandra</span><span>Streamlit</span>
+          </div>
+          <a href="https://github.com/SophyManwa/credit-risk-prediction-system" class="proj-link" target="_blank" rel="noopener">View repository →</a>
         </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-name">Insurance Pricing &amp; Fraud Analytics Platform</div>
+            <span class="proj-tag">ETL</span>
+          </div>
+          <p class="proj-desc">An ETL pipeline moving raw insurance policy and claims data into a structured PostgreSQL analytical layer, including schema design, SQL views, and automated data preparation and validation feeding downstream pricing and fraud-detection models.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>PostgreSQL</span><span>SQL</span>
+          </div>
+          <a href="https://github.com/SophyManwa/insurance-pricing-engine" class="proj-link" target="_blank" rel="noopener">View repository →</a>
+        </div>
+
+      </div>
     </section>
+  </div>
 
-    <!-- CONTACT -->
-    <footer id="contact" class="section section-alt contact">
-        <div class="section-inner contact-inner">
-            <h2 class="section-title"><span class="section-num">Contact</span></h2>
-            <p class="contact-lede">
-                <!-- Based in Dublin, Ireland. Open to senior data roles, pipeline
-                modernization consulting, and BI ecosystem overhauls. -->
-            </p>
-            <div class="contact-links">
-                <a href="mailto:sophymanwa44@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/sophymanwa/" target="_blank"
-                    rel="noopener noreferrer">Linkedin</a>
-                <a href="https://github.com/SophyManwa" target="_blank"
-                    rel="noopener noreferrer">Github</a>
-            </div>
+  <div class="divider"></div>
+
+  <div class="wrap">
+    <section id="education" class="reveal">
+      <div class="section-head"><span class="section-num">05</span><span class="section-title">Education &amp; certifications</span><div class="section-rule"></div></div>
+
+      <div class="edu-row">
+        <div>
+          <div class="edu-deg">MSc, Big Data Management and Analytics</div>
+          <div class="edu-school">Griffith College Dublin, Ireland</div>
         </div>
-        <div class="foot-note">&copy; 2026 Sophy Manwa</div>
+        <div class="edu-date">2025 &ndash; 2026</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-deg">BSc, Business Information Technology</div>
+          <div class="edu-school">Jomo Kenyatta University of Agriculture and Technology, Kenya</div>
+        </div>
+        <div class="edu-date">2015 – 2019</div>
+      </div>
+
+      <div class="cert-list">
+        <span>Google Data Analytics Professional Certificate</span>
+        <span>AWS Machine Learning Foundations</span>
+        <span>Generative AI with AWS</span>
+        <span>Introduction to Snowflake</span>
+        <span>Advanced ACL Scripting</span>
+        <span>Moody's Foundations of Banking &amp; Credit</span>
+      </div>
+    </section>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="wrap">
+    <footer id="contact">
+      <div class="hero-tag" style="justify-content:center;"><span class="dot"></span>06 · contact</div>
+      <div class="contact-title">Let's build something that scales.</div>
+      <p class="contact-sub">Open to Data Engineer and Analytics Engineer roles in Dublin and remote-friendly EU teams.</p>
+      <div class="contact-links">
+        <a href="mailto:sophymanwa44@gmail.com" class="btn btn-primary">Email me →</a>
+        <a href="https://www.linkedin.com/in/sophymanwa/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/SophyManwa" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="copyright">© 2026 Sophy Manwa · Dublin, Ireland</div>
     </footer>
+  </div>
 
-    <script>
-        // Scroll-reveal for sections (respects prefers-reduced-motion via CSS)
-        document.addEventListener('DOMContentLoaded', () => {
-            const revealEls = document.querySelectorAll('.section, .hero');
-            revealEls.forEach(el => el.classList.add('reveal'));
+</main>
 
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.08 });
-
-            revealEls.forEach(el => observer.observe(el));
-        });
-    </script>
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target);} });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+</script>
 
 </body>
-
 </html>
